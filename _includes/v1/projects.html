@@ -1,6 +1,16 @@
 <div class="container projects-container">
-  <h3 id="{{ site.projects_title | slugify | default: 'projects'}}">{{ site.projects_title | default: "Projects" }}</h3>
+  <h3>{{ site.projects_title | default: "Projects" }}</h3>
   {% for project in site.data.projects %}
-    {% include {{ project.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=project %}
+    <div class="row clearfix project">
+      <div class="col-xs-12 col-sm-5 col-md-6 no-print">
+        <span class="pub-img" style="background-image: url({{ project.image | relative_url }})"/>
+        </div>
+      <div class="col-xs-12 col-sm-7 col-md-6 col-print-12">
+        {%- if project.quote -%}
+          <p class="quote">{{ project.quote }}</p>
+        {%- endif -%}
+        {{ project.description | strip | markdownify }}
+      </div>
+    </div>
   {% endfor %}
 </div>

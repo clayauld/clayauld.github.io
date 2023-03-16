@@ -63,7 +63,7 @@ footer_show_references: true
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-data_dir: _test/_data
+data_dir: _data
 
 include:
  - _test

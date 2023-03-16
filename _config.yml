@@ -1,140 +1,296 @@
-# Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: alirezadizaji/alirezadizaji.github.io
+favicon: assets/favicon.ico
 
-# Content configuration version
 version: 2
-
-# Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
-
+name: Clayton Auld
+email: clayton@clayauld.com
+title: Engineer III, GCI Communications Corp.
+website_title: Website
+website: www.clayauld.com
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
+# trigger_darkmode:
+#   start_light: '05'
+#   start_dark: '16'
+last_updated_time: March 9, 2023
+github_username: clayauld
+linkedin_username: clayauld
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  <br>
+  **Download my Resume: [PDF](files/Clayton_Auld_Resume.pdf)**
+  <br><br>
+  **Hi there 👋**
+  
+  My name is Clayton Auld. By day, I work in telecommunications 
+  as a Network Capacity Forecasting Engineer (prior role was as a Radio Frequency (RF) Engineer). 
+  When I'm not at $DAYJOB, I dabble in open source home automation systems, Linux system administration, 
+  and network infrastructure. I manage several cloud VPSs using projects like [Pi-Hole](https://pi-hole.net), 
+  secure DNS [(DNS-over-TLS)](https://github.com/clayauld/Secure-Adblocking-DNS), and other small things. 
+  I also run my own [UnRAID server](https://unraid.net) out of my closet for cloud storage and 
+  [home automation](https://home-assistant.io).
 
-# Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+  I am an open source software and hardware enthusiast, who loves to play with small embedded systems 
+  (think ESP32, STM32, Arduino, etc) for home automation. I believe access to free and open source software 
+  is crucial for our society and for the success of modern business and infrastructure. 
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+  Current favorite projects include:
+  * [SkiffOS](https://github.com/skiffos/SkiffOS): Buildroot-based lightweight Linux system for computers and embedded systems. It utilizes Docker containers to decouple the Linux/GNU kernel and BSP from userspace.
+  * [Home Assistant](https://home-assistant.io): Home Automation system on steroids, built to integrate and make dissimilar systems communicate well.
+  * [ESPHome](https://esphome.io): A system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+  * [Home Assistant HACS](https://hacs.xyz/): Home Assistant Community Store
+  * [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish): Fish shell
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  I am also an avid user of Linux/GNU systems and love the WSL integration into Windows 10.
 
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Most of my GitHub work centers around home automation, Linux administration, and embedded systems. I have contributed to [SkiffOS](https://github.com/skiffos/SkiffOS) in the form of bug reports and build testing, [Home Assistant HACS](https://hacs.xyz/), and manage the [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) [budspencer theme](https://github.com/oh-my-fish/theme-budspencer) for the [fish shell](https://fishshell.com/).
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
+############################################ Experience ############################################
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+###################### GCI ######################
+      - layout: top
+        title: GCI Communications
+        link: www.gci.com
+        caption: May 2020 - Present
+      - layout: left
+        sub_title: Engineer III, Capacity Forecasting & Linux DevOps Engineer
+        caption: October 2022 - present
+        description: |
+          * Spearheaded the documentation of software systems and software standards for the forecasting team. 
+          * Led the implementation of Linux server infrastructure to fill the team's software development and data analysis needs.
+          * Collaborated across departments to investigate and monitor telecom system power, HVAC, and battery plant load and capacity for use in forecasting future growth.
+          * Collaborated with the team to forecast network capacity demand and growth across GCI's TERRA microwave network in western Alaska.
+
+            **Technology Stack**: <mark>Docker</mark> <mark>Bash/Shell</mark> <mark>Git</mark> <mark>GNU/Linux</mark> <mark>VMWare</mark> <mark>RHEL</mark> <mark>Ubuntu</mark>
+      - layout: left
+        sub_title: Engineer II, Microwave RF
+        caption: July 2022 - October 2022
+        description: |
+          * Focused on microwave point-to-point radio systems.
+          * Lead RF engineering & design on yearly upgrades to GCI’s TERRA microwave network throughout western Alaska.
+          * Act as SME for long haul microwave (Ericsson MINI-LINK 6200 & Aviat Eclipse) designs and implementations throughout GCI's network 
+          * Coordinate with field crews to manage and implement designs and upgrades by providing engineering guidance and support.
+      - layout: left
+        border: weak
+        sub_title: Engineer I, Microwave RF
+        caption: May 2020 - July 2022
+        description: |
+          * Perform RF engineering & design on yearly upgrades to GCI’s TERRA microwave network throughout western Alaska.
+          * Design and implement microwave backhaul upgrades to support 5G cellular network installations in Anchorage, and the Mat-Su Valley.
+          * Assist senior engineers in design of microwave and satellite telecom solutions throughout Alaska in urban and rural areas of the state.
+###################### Alasconnect ######################
+      - layout: top
+        title: AlasConnect
+        caption: February 2019 - May 2020
+        link: www.alasconnect.com
+      - layout: left
+        border: weak
+        sub_title: System Technician I, Desktop Support
+        description: |
+          * Provided project and service ticket oversight on technology issues in corporate desktop and server environments.
+          * Maintained documentation for client IT infrastructure, including updates, maintenance, and solutions to issues.
+          * Managed deployment, maintenance, support and upgrades for end user PC hardware and systems.
+          * Planned Windows 10 OS upgrades for multiple clients with 20 to 50 devices
+###################### Emerson ######################
+      - layout: top
+        title: Emerson Automation Solutions
+        caption: February 2019 - May 2020
+        link_text: www.emerson.com
+        link: https://www.emerson.com/en-us/expertise/automation/industrial-internet-things/pervasive-sensing-solutions/wireless-technology
+      - layout: left
+        border: weak
+        sub_title: Software Design Engineer, Industrial Wireless Technology
+        description: |
+          * Software design engineer at Rosemount Inc (an Emerson company).
+          * Develop firmware for wireless microcontroller and embedded systems on Rosemount industrial devices and gateways. 
+          * Support existing WirelessHART devices and gateway products within the Rosemount wireless product group.
+          * Design and evaluate embedded GNU/Linux board support package for next generation WirelessHART gateway.
+###################### NES ######################
+      - layout: top
+        title: Northern Embedded Solutions
+        caption: May 2016 - May 2017
+        link: www.noremsol.com
+      - layout: left
+        sub_title: Embedded Systems Engineer
+        description: |
+          * Served as engineer support in providing embedded systems design for Unmanned Aerial Systems (UASs), University of Alaska Fairbanks, and ACUASI.
+          * Integrated Pixhawk flight control systems, completed configuration for Unmanned Ground Vehicles, and customized Arduino hardware and software designs to develop unique robotic capabilities.
+
+############################################ Proficiencies ############################################
+  - title: Technology Proficiencies
+    layout: list
+    content:
+      - layout: left
+        title: Programming
+        description: |
+          <mark>Bash/Shell</mark> <mark>Ansible</mark> <mark>C/C++</mark> <mark>Python</mark> <mark>MATLAB</mark> <mark>VHDL</mark>
+      - layout: left
+        title: Engineering Tools
+        description: |
+          <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Yocto</mark> <mark>Buildroot</mark> <mark>Pathloss 5.1</mark> <mark>Eagle PCB</mark>
+      - layout: left
+        title: Operating Systems
+        description: |
+          <mark>GNU/Linux</mark> <mark>MacOS</mark> <mark>Windows</mark> <mark>UNIX</mark>
+      - layout: left
+        title: Architectures
+        description: |
+          <mark>x86/x64</mark> <mark>ARM</mark> <mark>RISC-V</mark> <mark>MSP430</mark>
+
+############################################ Education ############################################
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+      - layout: top
+        title: "B.S. Electrical Engineering: Computer Engineering"
+        sub_title: University of Alaska - Fairbanks
+        caption: Graduated May 2017
+        link: www.uaf.edu
+        description: |
+          * Bachelor's of Science in Electrical Engineering with a focus in Computer Engineering
+          * Contributed to several research project funded by the National Science Foundation and NASA
+          * AIAA Chapter President and participated in the AIAA Design Build Fly competition
+
+############################################ Certifications ############################################
+  - title: Certifications
+    layout: list
+    content:
+      - layout: top-middle
+        title: "Fundamentals of Engineering: Electrical and Computer"
+        sub_title: National Council of Examiners for Engineering and Surveying (NCEES)
+        caption: April 2017
+        link: https://account.ncees.org/rn/1724749-984208-1425e5e
+        link_text: Click here for NCEES Verification
+      - layout: top-middle
+        title: "LE-1: Linux Essentials"
+        sub_title: Linux Professional Institute (LPI)
+        caption: March 2021
+        link: https://lpi.org/v/LPI000473229/66huwxl723
+        link_text: Click here for LPI Verification
+
+############################################ Internships ############################################
+  - title: Internships
+    layout: list
+    content:
+###################### ACUASI ######################
+      - layout: top
+        title: Alaska Center for UAS Integration
+        caption: November 2014 - May 2016
+        link: acuasi.alaska.edu
+      - layout: left
+        border: weak
+        sub_title: Student Hardware Design Engineer
+        description: |
+          * Minimized and lightened weight of designed system for UAS payload integration and delivered detailed report outlining project analysis for client.
+          * Designed PCB for camera payload and flight system. Provided detailed report outlining flight asset system viability.
+###################### ATS ######################
+      - layout: top
+        title: ATS Alaska (now part of Convergint)
+        caption: May 2014 - November 2014
+        link_text: www.convergint.com
+        link: https://www.convergint.com/convergint-announces-acquisition-of-ats-alaska-and-ats-facility-systems/
+      - layout: left
+        border: weak
+        sub_title: Engineering Intern
+        description: |
+          * Coordinate with Project Manager on existing design projects and perform pertinent calculations
+          * Use AutoCAD and Autodesk software to create and edit design plans and drawings per Project Manager requests
+          * Work alongside Fire Alarm and Controls engineers/technicians to install and commission systems
+###################### Alasconnect ######################
+      - layout: top
+        title: AlasConnect
+        caption: September 2014 - March 2014
+        link: www.alasconnect.com
+      - layout: left
+        border: weak
+        sub_title: Helpdesk Intern I
+        description: |
+          * Provide quick, thorough responses to customer technology issues and properly escalate tickets toother support staff
+          * Maintain maintenance and ticketing logs of ongoing computer repairs and issues of current customers
+          * Maintain Active Directory and Exchange services according to customer requests and needs
+###################### Design Alaska ######################
+      - layout: top
+        title: Design Alaska
+        caption: April 2013 - August 2013
+        link: www.designalaska.com
+      - layout: left
+        border: weak
+        sub_title: Electrical Engineering Intern
+        description: |
+          * Coordinate with Project Manager on existing design projects and perform pertinent calculations
+          * Use AutoCAD and Autodesk software to create and edit design plans and drawings per ProjectManager requests
+          * Become familiar with current NEC code and its applications in building design and construction
+###################### UAF ######################
+      - layout: top
+        title: University of Alaska - Fairbanks
+        link: www.uaf.edu
+        caption: February 2012 - December 2013
+      - layout: left
+        sub_title: Office of Sustainability - Student Engineer
+        caption: August 2012 - Dec 2013
+        description: |
+          * Coordinate with Director on existing energy projects
+          * Design and implement an electrical metering system for the new Sustainable Village housing
+          * Coordinate with contracted electrician to install meters and metering equipment
+          * Configure mini computer to collect and analyze incoming electrical data
+      - layout: left
+        sub_title: Electrical Engineering Intern - University Utilities
+        caption: June 2012 - September 2012
+        description: |
+          * Work under the supervision of power plant staff on one or more research projects
+          * Responsible for leading a project intended to revamp campus electrical, water, and steam meteringsystem
+          * Communicate with supervisor on a regular basis about ongoing projects
+      - layout: left
+        sub_title: Arctic Region Supercomputing Center
+        caption: February 2012 - June 2012
+        description: |
+          * Work under the supervision of ARSC staff on one or more research projects
+          * Projects include but are not limited to: Linux and Unix operating system administration, testing anddocumenting software installations, network operations and/or troubleshooting, advanced technicalcomputer maintenance, and research.
+          * Communicate with supervisor on a regular basis about ongoing projects
+
+############################################ More about Me ############################################
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+    content: |
+      Alongside my interests in science and technology, some of my other hobbies are:
+        - Rock Climbing
+        - Cross-country skiing
+        - Hiking
+        - Fishing - Alaska-style! Not your midwest lake fishing...😆
+        - Traveling and nature
+      
+      I also volunteer with the local search and rescue group, [Alaska Mountain Rescue Group](https://amrg.org/). I am passionate
+      about our outdoor spaces, especially here in Alaska, and enjoy giving back a little of my time to our outdoor community while
+      helping to increase the chances that fellow adventurers gets home safely.
+    
+      <br>
+      <figure align = "center">
+        <img src="./images/AMRG.jpg" alt="AMRG Team">
+        <figcaption align = "center">
+          <b>AMRG Team at a training in November 2022</b>
+        </figcaption>
+      </figure>
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+######################################################################################################
 
-# Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml

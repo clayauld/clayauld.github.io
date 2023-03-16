@@ -1,0 +1,17 @@
+<div class="container publications-container">
+    <h3>{{ site.publications_title | default: "Publications" }}</h3>
+    {% for publication in site.data.publications %}
+      <div class="row clearfix publication">
+        <div class="col-xs-12 col-sm-5 col-md-6 no-print">
+          <span class="pub-img" style="background-image: url({{ publication.image | relative_url }})" />
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-6 col-print-12">
+          {%- if publication.quote -%}
+            <p class="quote">{{ publication.quote }}</p>
+          {%- endif -%}
+          {{ publication.description | strip | markdownify }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
