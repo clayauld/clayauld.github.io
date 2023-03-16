@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
  # spec.required_ruby_version = '~> 3.2'
-#  spec.required_ruby_version = '~> 3.1.1'
+  spec.required_ruby_version = '>= 3.1.1'
 
   spec.add_runtime_dependency 'github-pages', '~> 228'
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.8.0"
