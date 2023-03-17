@@ -268,10 +268,10 @@ content:
       helping to increase the chances that fellow adventurers gets home safely.
 
       <br>
-      {:refdef: style="text-align: center; width="50%"}
-      ![AMRG Photo](images/AMRG.jpg){:width="75%"; :style="display:block; margin-left:auto; margin-right:auto"}
+      {:refdef: style="text-align:center;"}
+      ![AMRG Photo](images/AMRG.jpg){:width="75%"}
       <br>
-      *AMRG Team at a LifeMed helicopter training in November 2022*
+      *AMRG Team at a LifeMed helicopter training in November 2022*{:style="font-size:14px"}
       {: refdef}
 
 ######################################################################################################
