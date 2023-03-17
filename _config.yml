@@ -106,7 +106,7 @@ content:
         sub_title: Software Design Engineer, Industrial Wireless Technology
         description: |
           * Software design engineer at Rosemount Inc (an Emerson company).
-          * Develop firmware for wireless microcontroller and embedded systems on Rosemount industrial devices and gateways. 
+          * Develop firmware for wireless microcontrollers and embedded systems on Rosemount industrial devices and gateways. 
           * Support existing WirelessHART devices and gateway products within the Rosemount wireless product group.
           * Design and evaluate embedded GNU/Linux board support package for next generation WirelessHART gateway.
 ###################### NES ######################
