@@ -266,14 +266,13 @@ content:
       I also volunteer with the local search and rescue group, [Alaska Mountain Rescue Group](https://amrg.org/). I am passionate
       about our outdoor spaces, especially here in Alaska, and enjoy giving back a little of my time to our outdoor community while
       helping to increase the chances that fellow adventurers gets home safely.
-    
+
       <br>
-      <figure align = "center">
-        <img src="./images/AMRG.jpg" alt="AMRG Team" style="width:85%">
-        <figcaption align = "center">
-          <b>AMRG Team at a training in November 2022</b>
-        </figcaption>
-      </figure>
+      {:refdef: style="text-align: center; width="50%"}
+      ![AMRG Photo](images/AMRG.jpg){:width="75%"; :style="display:block; margin-left:auto; margin-right:auto"}
+      <br>
+      *AMRG Team at a LifeMed helicopter training in November 2022*
+      {: refdef}
 
 ######################################################################################################
 
