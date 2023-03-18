@@ -1,4 +1,5 @@
 #! /bin/bash
+WORKSPACE="/workspaces/resume.clayauld.com"
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
@@ -13,7 +14,7 @@ ruby -v
 gem update --system 3.4.7
 gem install bundler jekyll
 rbenv rehash
-cd /workspaces/my_online_resume/clayton-resume
-git config --global --add safe.directory /workspaces/my_online_resume/clayton-resume
+git config --global --add safe.directory $WORKSPACE
+cd $WORKSPACE
 bundle install
 bundle exec jekyll serve --livereload --config _config.yml
