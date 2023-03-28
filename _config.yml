@@ -129,8 +129,9 @@ content:
         description: |
           <style>
           td, th {
-            border: none!important;
+            border: none;
             font-size: 14px;
+            font-weight: 600;
           }
           </style>
           |<mark>Bash/Shell</mark> | <mark>Ansible</mark> | <mark>C/C++</mark> | <mark>Python</mark> | <mark>MATLAB</mark> | <mark>VHDL</mark> |
