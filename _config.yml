@@ -130,10 +130,9 @@ content:
           <style>
           td, th {
             border: none!important;
-            font-size: 16px;
+            font-size: 14px;
           }
           </style>
-
           |<mark>Bash/Shell</mark> | <mark>Ansible</mark> | <mark>C/C++</mark> | <mark>Python</mark> | <mark>MATLAB</mark> | <mark>VHDL</mark> |
           |:----:|:----:|:----:|:----:|:----:|:----:|
           | ★★★★★ | ★★☆☆☆ | ★★★☆☆ | ★★☆☆☆ | ★★★★☆ | ★★☆☆☆ |
@@ -141,36 +140,18 @@ content:
       - layout: left
         title: Engineering Tools
         description: |
-          <style>
-          td, th {
-            border: none!important;
-            font-size: 16px;
-          }
-          </style>
           | <mark>Docker</mark> | <mark>Kubernetes</mark> | <mark>Buildroot</mark> | <mark>Yocto</mark> | <mark>Pathloss 5.1</mark> | <mark>Eagle PCB</mark> |
           |:----:|:----:|:----:|:----:|:----:|:----:|
           | ★★★★★ | ★★☆☆☆ | ★★★☆☆ | ★★☆☆☆ | ★★★★★ | ★★★★☆ |
       - layout: left
         title: Operating Systems
         description: |
-          <style>
-          td, th {
-            border: none!important;
-            font-size: 16px;
-          }
-          </style>
           | <mark>GNU/Linux</mark> | <mark>Windows</mark> | <mark>MacOS</mark> | <mark>UNIX</mark> | <mark>RTOS</mark> |
           |:----:|:----:|:----:|:----:|:----:|
           | ★★★★★ | ★★★★★ | ★★★★★ | ★★☆☆☆ | ★★☆☆☆ |
       - layout: left
         title: Architectures
         description: |
-          <style>
-          td, th {
-            border: none!important;
-            font-size: 16px;
-          }
-          </style>
           | <mark>x86/x64</mark> | <mark>ARM Cortex-M</mark> | <mark>RISC-V</mark> | <mark>MSP430</mark>
           |:----:|:----:|:----:|:----:|
           | ★★★★★ | ★★★☆☆ | ★★☆☆☆ | ★★★★☆ |
