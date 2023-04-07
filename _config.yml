@@ -136,25 +136,25 @@ content:
           </style>
           |<mark>Bash/Shell</mark> | <mark>Ansible</mark> | <mark>C/C++</mark> | <mark>Python</mark> | <mark>MATLAB</mark> | <mark>VHDL</mark> |
           |:----:|:----:|:----:|:----:|:----:|:----:|
-          | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★○○○</span> | <span style="font-size: 16px; font-weight: 100;">★★★○○</span> | <span style="font-size: 16px; font-weight: 100;">★★○○○</span> | <span style="font-size: 16px; font-weight: 100;">★★★★○</span> | <span style="font-size: 16px; font-weight: 100;">★★○○○</span> |
+          | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★-- -- -- </span> | <span style="font-size: 16px; font-weight: 100;">★★★-- -- </span> | <span style="font-size: 16px; font-weight: 100;">★★-- -- -- </span> | <span style="font-size: 16px; font-weight: 100;">★★★★-- </span> | <span style="font-size: 16px; font-weight: 100;">★★-- -- -- </span> |
       - layout: left
         title: Engineering Tools
         description: |
           | <mark>Git</mark> | <mark>Docker</mark> | <mark>Kubernetes</mark> | <mark>Buildroot</mark> | <mark>Yocto</mark> | <mark>Pathloss 5.1</mark> | <mark>Eagle PCB</mark> |
           |:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-          | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★○○○</span> | <span style="font-size: 16px; font-weight: 100;">★★★○○</span> | <span style="font-size: 16px; font-weight: 100;">★★○○○</span> | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★★○</span> |
+          | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★-- -- -- </span> | <span style="font-size: 16px; font-weight: 100;">★★★-- -- </span> | <span style="font-size: 16px; font-weight: 100;">★★-- -- -- </span> | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★★-- </span> |
       - layout: left
         title: Operating Systems
         description: |
           | <mark>GNU/Linux</mark> | <mark>Windows</mark> | <mark>MacOS</mark> | <mark>UNIX</mark> | <mark>RTOS</mark> |
           |:----:|:----:|:----:|:----:|:----:|
-          | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★○○</span> | <span style="font-size: 16px; font-weight: 100;">★★○○○</span> |
+          | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★-- -- </span> | <span style="font-size: 16px; font-weight: 100;">★★-- -- -- </span> |
       - layout: left
         title: Architectures
         description: |
           | <mark>x86/x64</mark> | <mark>ARM Cortex-M</mark> | <mark>RISC-V</mark> | <mark>MSP430</mark>
           |:----:|:----:|:----:|:----:|
-          | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★○○</span> | <span style="font-size: 16px; font-weight: 100;">★★○○○</span> | <span style="font-size: 16px; font-weight: 100;">★★★★○</span> |
+          | <span style="font-size: 16px; font-weight: 100;">★★★★★</span> | <span style="font-size: 16px; font-weight: 100;">★★★-- -- </span> | <span style="font-size: 16px; font-weight: 100;">★★-- -- -- </span> | <span style="font-size: 16px; font-weight: 100;">★★★★-- </span> |
 
 ############################################ Education ############################################
   - title: Education
