@@ -295,12 +295,43 @@ content:
       <div style="text-align: center;font-size:14px">May 2023</div>
       </p>
 
-      <br>
-      {:refdef: style="text-align:center;"}
-      ![AMRG Photo](images/AMRG.jpg){:width="75%"}
-      <br>
-      *AMRG Team at a training in November 2022*{:style="font-size:14px"}
-      {: refdef}
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align: center"> </th>
+            <th style="text-align: center"> </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center"><img src="images/AMRG.jpg" alt="AMRG Photo" width="97%" /></td>
+            <td style="text-align: center"><img src="images/NOLS_WFR.jpg" alt="NOLS WFR Photo" width="97%" /></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;font-size:14px">AMRG Team at LifeFlight Training in November 2022</td>
+            <td style="text-align: center;font-size:14px">NOLS Wilderness First Responder Class</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align: center"> </th>
+            <th style="text-align: center"> </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center"><img src="images/Rescue_1.jpg" alt="Rescue 1 Photo" width="50%" /></td>
+            <td style="text-align: center"><img src="images/Rescue_2.jpg" alt="Rescue 1 Photo" width="50%" /></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;font-size:14px">Litter Carry & Transport Rescue Scenario - NOLS WFR</td>
+            <td style="text-align: center;font-size:14px">Outdoor Patient Care Training Scenario - NOLS WFR</td>
+          </tr>
+        </tbody>
+      </table>
 
 ######################################################################################################
 
