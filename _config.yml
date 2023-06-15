@@ -1,9 +1,9 @@
-repository: alirezadizaji/alirezadizaji.github.io
+repository: clayauld/.github.io
 favicon: assets/favicon.ico
 
 version: 2
 name: Clayton Auld
-email: clayton@clayauld.com
+email: clayton.auld.resume@gmail.com
 title: Engineer III, GCI Communications Corp.
 website_title: Website
 website: www.clayauld.com
@@ -12,7 +12,7 @@ darkmode: true
 # trigger_darkmode:
 #   start_light: '05'
 #   start_dark: '16'
-last_updated_time: March 17, 2023
+last_updated_time: June 14, 2023
 github_username: clayauld
 linkedin_username: clayauld
 about_title: About Me
