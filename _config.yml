@@ -12,15 +12,25 @@ darkmode: true
 # trigger_darkmode:
 #   start_light: '05'
 #   start_dark: '16'
-last_updated_time: June 14, 2023
+last_updated_time: June 27, 2023
 github_username: clayauld
 linkedin_username: clayauld
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
   <br>
-  **Download my Resume: [PDF](files/Clayton_Auld_Resume.pdf)**
-  <br><br>
+  <div style="text-align: left;font-size:14px"><strong>Download my Resume: <a href="files/Clayton_Auld_Resume.pdf">PDF</a></strong></div>
+  <br>
+
+  <h4 style="text-align: center;">ELECTRICAL ENGINEER – LINUX & EMBEDDED SYSTEMS</h4>
+  <div style="text-align: center;font-size:16px">LINUX DEVOPS ~ EMBEDDED RTOS ~ EMBEDDED LINUX</div>
+  <br>
+
+  * <b>B.S. Electrical Engineering: Computer Engineering</b> with considerable foundation in embedded systems design, and communication theory.
+  * Linux DevOps systems architect and infrastructure designer.
+  * Skilled in designing, testing, and integration of hardware and software for embedded Linux, RTOS, and communications systems.  
+  <br>
+
   **Hi there 👋**
   
   My name is Clayton Auld. By day, I work in telecommunications 
@@ -60,8 +70,10 @@ content:
         sub_title: Engineer III, Capacity Forecasting & Linux DevOps Engineer
         caption: October 2022 - present
         description: |
+          * Forecast network capacity demand and growth across GCI's TERRA microwave network in western Alaska.
           * Spearheaded the documentation of software systems and software standards for the forecasting team. 
           * Led the implementation of Linux server infrastructure to fill the team's software development and data analysis needs.
+          * Manage in-house Linux infrastructure and systems, including software requirements, OS customizations and containerization of applications
           * Collaborated across departments to investigate and monitor telecom system power, HVAC, and battery plant load and capacity for use in forecasting future growth.
           * Collaborated with the team to forecast network capacity demand and growth across GCI's TERRA microwave network in western Alaska.
 
