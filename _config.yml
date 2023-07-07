@@ -206,7 +206,7 @@ content:
 ###################### ACUASI ######################
       - layout: top
         title: Alaska Center for UAS Integration
-        caption: November 2014 - May 2016
+        caption: January 2016 - July 2016
         link: acuasi.alaska.edu
       - layout: left
         border: weak
@@ -230,7 +230,7 @@ content:
 ###################### Alasconnect ######################
       - layout: top
         title: AlasConnect
-        caption: September 2014 - March 2014
+        caption: September 2013 - March 2014
         link: www.alasconnect.com
       - layout: left
         border: weak
